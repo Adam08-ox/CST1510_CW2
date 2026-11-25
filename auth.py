@@ -23,6 +23,7 @@ if __name__== "__main__":
             register_user(username, password)
         elif choice == "2":
             pass
+            registered_username = input("Enter the username")
             registered_password = input("Enter the password: ")
         elif choice == "3":
             print("Exiting the program.")
